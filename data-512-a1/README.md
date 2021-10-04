@@ -34,10 +34,22 @@ We will perform some data processing on these data files to prepare them for ana
 We combile all the pageviews into one csv file - en-wikipedia_traffic_200712-202108.csv
 
 THe combined CSV has the columns - 
+**Column                      Values**
+year	                        YYYY
+month	                        mm
+pagecount_all_views	          Total Views from PageCount API
+pagecount_desktop_views	      Total Desktop Views from PageCount API
+pagecount_mobile_views	      Total Mobile Views from PageCount API
+pageview_all_views	          Total Views from PageView API
+pageview_desktop_views	      Total Desktop Views from PageView API
+pageview_mobile_views	        Total Mobile Views from PageView API
 
 ## Data Analysis:
+ In this project we will visualize the dataset we have created as a time series graph. The visualization will track three traffic metrics: mobile traffic, desktop traffic, and all traffic (mobile + desktop). The visualization is exported to wikipedia_page_views_vizualtization.png
+
+
 ## Libraries Used:
-1. Matplotlib
-2. Pandas
+1. matplotlib
+2. pandas
 3. json
 4. requests
