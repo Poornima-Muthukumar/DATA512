@@ -10,6 +10,9 @@ The Legacy Pagecounts API (documentation, endpoint) provides access to desktop a
 
 The Pageviews API (documentation, endpoint) provides access to desktop, mobile web, and mobile app traffic data from July 2015 through last month.
 
+## Terms of Use
+The use of Wikipedia data is subject to the Wikimedia Foundation Terms of Use (TOU). A summary of these TOU, along with the complete terms are available here.  
+
 ## Data Acquisition: 
 For each API, we collect data for all months where data is available and then save the raw results into 5 separate JSON source data files (one file per API query type.
 
