@@ -26,10 +26,10 @@ The JSON files collected are -
 ## Data Processing:
 We will perform some data processing on these data files to prepare them for analysis.
 
-1.Combine monthly values for mobile app and mobile web from pageview api.
-2.Separate the value of timestamp into (YYYY) and (MM) and discard (DDHH)
-3.If no traffic is available for a given access method, mark it as 0.
-4.Combile all data in one file for analysis.
+1. Combine monthly values for mobile app and mobile web from pageview api.
+2. Separate the value of timestamp into (YYYY) and (MM) and discard (DDHH)
+3. If no traffic is available for a given access method, mark it as 0.
+4. Combile all data in one file for analysis.
 
 We combile all the pageviews into one csv file - en-wikipedia_traffic_200712-202108.csv
 
