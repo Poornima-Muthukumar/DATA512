@@ -16,7 +16,7 @@ Terms of use for [WikiMedia](https://www.mediawiki.org/wiki/REST_API#Terms_and_c
 Licensed under [CC BY-SA 3.0](https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions)
 
 ## Data Acquisition: 
-For each API, we collect data for all months where data is available and then save the raw results into 5 separate JSON source data files (one file per API query type.
+For each API, we collect data for all months where data is available and then save the raw results into 5 separate JSON source data files (one file per API query type).
 
 we're interested in organic (user) traffic, as opposed to traffic by web crawlers or spiders. The Pageview API (but not the Pagecount API) allows you to filter by agent=user.
 
