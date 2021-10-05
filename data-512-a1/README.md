@@ -13,7 +13,7 @@ The Pageviews API ([documentation](https://wikitech.wikimedia.org/wiki/Analytics
 Terms of use for [WikiMedia](https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions)
 
 ## Licensed under ##
-[Licensed under] (https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions)
+Licensed under [CC BY-SA 3.0](https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions)
 
 ## Data Acquisition: 
 For each API, we collect data for all months where data is available and then save the raw results into 5 separate JSON source data files (one file per API query type.
