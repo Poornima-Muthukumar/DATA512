@@ -10,7 +10,7 @@ The Legacy Pagecounts API ([documentation](https://wikitech.wikimedia.org/wiki/A
 The Pageviews API ([documentation](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews), [endpoint](https://wikimedia.org/api/rest_v1/#/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end)) provides access to desktop, mobile web, and mobile app traffic data from July 2015 through last month.
 
 ## Terms of Use
-The use of Wikipedia data is subject to the Wikimedia Foundation Terms of Use (TOU). A summary of these TOU, along with the complete terms are available here.  
+Terms of use for [WikiMedia](https://www.mediawiki.org/wiki/REST_API#Terms_and_conditions)
 
 ## Data Acquisition: 
 For each API, we collect data for all months where data is available and then save the raw results into 5 separate JSON source data files (one file per API query type.
