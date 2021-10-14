@@ -18,7 +18,7 @@ The goal of this project is to explore the concept of bias through data on Wikip
 | Name                    | Country Name                                |
 | Type                    | Type                                        |
 | TimeFrame               | Year                                        |
-| Data(M)                 |                                             |
+| Data(M)                 | Population (millions)                       |
 | Population              | Population of the Country                   | 
 
 ## Data Acquisition: 
