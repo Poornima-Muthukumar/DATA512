@@ -35,6 +35,22 @@ The Redfin weekly housing market data has data for each county on a weekly basis
 
 # Methodology
 
+# Correlation between covid cases and housing prices 
+Here I will perform exploratory data analysis by creating visualizations to see the correlation between housing market data and covid cases week over week.  
+
+Here I will plot the following visualization from the redfin data set. 
+Weekly confirmed covid cases and the number of new listings.
+Weekly confirmed covid cases and the total number of homes sold.
+Weekly confirmed covid cases and median list price.
+Weekly confirmed covid cases and median sale price.
+
+# Linear Regression
+I will also perform linear regression to predict housing prices for 2020 and 2021 and compare it with actual housing prices to see if there is a difference between predicted and actual housing prices for 2020 and 2021. 
+
+Linear regression suits best to find the relationship between a dependent continuous variable (Median Sale Price) and one or more explanatory independent variables (Month/Year). Linear regression suits best here because we can see a linear trend in the dataset for housing prices and housing prices are normally distributed. 
+
+I will fit a univariate linear regression model using historical data from (2010- 2019)  where the feature is the weekly dates and the target is the median housing price. We are all aware of the housing market crash in 2007-2008 and it took the market some time to stabilize after the crash, hence I have decided to train the model with data post-2010.  I will split the data into (80-20 train test split) and fit a linear regression model using python scikit learn. I will also compute the RMSE (root mean square error) as a measure of model performance and use the model to predict housing prices for 2020 and 2021 and compare if the prediction is higher or similar to actual prices. 
+
 # Conclusion
 
 # Issues
@@ -53,5 +69,7 @@ My research would be released under an MIT License and the data is all public do
 4. requests
 5. matplotlib
 6. sklearn
+
+# References
 
 # Human Centered Data Science Perspective
