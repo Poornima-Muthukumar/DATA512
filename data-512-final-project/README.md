@@ -35,7 +35,7 @@ The Redfin weekly housing market data has data for each county on a weekly basis
 
 # Methodology
 
-## Correlation between covid cases and housing prices 
+### Correlation between covid cases and housing prices 
 Here I will perform exploratory data analysis by creating visualizations to see the correlation between housing market data and covid cases week over week.  
 
 Here I will plot the following visualization from the redfin data set. 
@@ -44,14 +44,16 @@ Weekly confirmed covid cases and the total number of homes sold.
 Weekly confirmed covid cases and median list price.
 Weekly confirmed covid cases and median sale price.
 
- ## Linear Regression
+ ### Linear Regression
 I will also perform linear regression to predict housing prices for 2020 and 2021 and compare it with actual housing prices to see if there is a difference between predicted and actual housing prices for 2020 and 2021. 
 
 Linear regression suits best to find the relationship between a dependent continuous variable (Median Sale Price) and one or more explanatory independent variables (Month/Year). Linear regression suits best here because we can see a linear trend in the dataset for housing prices and housing prices are normally distributed. 
 
 I will fit a univariate linear regression model using historical data from (2010- 2019)  where the feature is the weekly dates and the target is the median housing price. We are all aware of the housing market crash in 2007-2008 and it took the market some time to stabilize after the crash, hence I have decided to train the model with data post-2010.  I will split the data into (80-20 train test split) and fit a linear regression model using python scikit learn. I will also compute the RMSE (root mean square error) as a measure of model performance and use the model to predict housing prices for 2020 and 2021 and compare if the prediction is higher or similar to actual prices. 
 
-# Conclusion
+# Summary Plots and Visualatization
+
+# Reflection
 
 # Issues
 
@@ -73,3 +75,11 @@ My research would be released under an MIT License and the data is all public do
 # References
 
 # Human Centered Data Science Perspective
+In my analysis, I have made an effort to address a variety of human-cenetered data science considerations including:
+
+1. Licenses: I ensured that the research is licensed under a MIT license so others can use it.
+2. Copyright: Appropriately citing sources of data, tools, and inspiration
+3. Interpretability: Following a literate programming style to explain decisions made along the way that impact the final results of my analysis
+4. Reproduciblity: Making my research reproducible by providing information about my environment, how I used the data, and where I received my data in addition to including my data in my repository so that anyone could run my notebooks to replicate my results
+5. Interpretability: I hav used methods like Linear regression that are very transparent and easy to understand for the audience of the research. Also I have used visualisation to convey the informaion in a simple manner to promote this goal.
+
