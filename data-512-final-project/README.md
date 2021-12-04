@@ -62,7 +62,28 @@ I will fit a univariate linear regression model using historical data from (2010
 # License
 My research would be released under an MIT License and the data is all public domain.
 
-# Files Cheked In
+# Folder Structure
+ data-raw
+  1. CONVENIENT_us_confirmed_cases.csv
+  2. CONVENIENT_us_deaths.csv
+ data-processed
+  1. covid-data-mecklenburg-cleaned.csv
+  2. housing-data-mecklenburg-cleaned.csv
+  3. housing-covid-merged.csv
+ Images
+  LinearRegression
+    1. median_sale_prie_mecklenburg_county.jpeg
+    2. linear_regression_line_median_sale_price.jpeg
+    3. test_set_actual_vs_predicted_price.jpeg
+    4. actual_vs_predicted_price_validation_set.jpeg
+  1.weekly_cases_vs_house_inventory_mecklenburg_county.jpeg
+  2.weekly_cases_vs_houses_sold_mecklenburg_county.jpeg
+  3.weekly_cases_vs_median_sale_price_mecklenburg_county.jpeg
+  4.weekly_cases_vs_new_listing_mecklenburg_county.jpeg
+  
+ src
+  1.Final-Project.ipynb
+ 
 
 # Libraries Used:
 1. pandas
