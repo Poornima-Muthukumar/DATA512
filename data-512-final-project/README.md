@@ -17,9 +17,21 @@ Where there any other trends in the data related to covid cases and the housing 
 # Data Sources
 To perform the analysis I will use the following different datasets.
 
-The RAW_us_confirmed_cases.csv file from the Kaggle repository of John Hopkins University COVID-19 data - https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university?select=RAW_us_confirmed_cases.csv
-The weekly housing market data from Redfin - https://redfin-public-data.s3-us-west-2.amazonaws.com/redfin_covid19/weekly_housing_market_data_most_recent.tsv
-The Redfin weekly housing market data has data for each county on a weekly basis. The data is broken down by property type (All Residential, Single Family, Condo, Multi-Family, Townhouse, etc). Redfin has published this page to define each column in the dataset and how to interpret the column. This data set is licensed under Redfin’s Terms of Use. The guidelines for using the data states to cite the data source appropriately and provide a link to Redfin.
+1. The RAW_us_confirmed_cases.csv file from the Kaggle repository of John Hopkins University COVID-19 data - https://www.kaggle.com/antgoldbloom/covid19-data-from-john-hopkins-university?select=RAW_us_confirmed_cases.csv
+
+2. The weekly housing market data from Redfin - https://redfin-public-data.s3-us-west-2.amazonaws.com/redfin_covid19/weekly_housing_market_data_most_recent.tsv
+
+The Redfin weekly housing market data has data for each county on a weekly basis. The data is broken down by property type (All Residential, Single Family, Condo, Multi-Family, Townhouse, etc). Redfin has published [this page](https://www.redfin.com/news/data-center-metrics-definitions/) to define each column in the dataset and how to interpret the column. This data set is licensed under [Redfin’s Terms of Use](https://www.redfin.com/about/terms-of-use). The guidelines for using the data states to cite the data source appropriately and provide a link to Redfin.
+
+| Column                      | Values                                 |
+|-----------------------------|----------------------------------------|
+| period_begin                | Start date                             |
+| period_end                  | End date                               |
+| inventory                   | Housing Inventory                      |
+| total_homes_sold            | Total Homes Sold                       |
+| median_sale_price           | Median Sale Price                      |
+| median_new_listing_price    | Median New Listing Price               |
+| total_new_listings          | Total New Listing                      |
 
 # Methodology
 
