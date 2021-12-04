@@ -35,7 +35,7 @@ The Redfin weekly housing market data has data for each county on a weekly basis
 
 # Methodology
 
-# Correlation between covid cases and housing prices 
+## Correlation between covid cases and housing prices 
 Here I will perform exploratory data analysis by creating visualizations to see the correlation between housing market data and covid cases week over week.  
 
 Here I will plot the following visualization from the redfin data set. 
@@ -44,7 +44,7 @@ Weekly confirmed covid cases and the total number of homes sold.
 Weekly confirmed covid cases and median list price.
 Weekly confirmed covid cases and median sale price.
 
-# Linear Regression
+ ## Linear Regression
 I will also perform linear regression to predict housing prices for 2020 and 2021 and compare it with actual housing prices to see if there is a difference between predicted and actual housing prices for 2020 and 2021. 
 
 Linear regression suits best to find the relationship between a dependent continuous variable (Median Sale Price) and one or more explanatory independent variables (Month/Year). Linear regression suits best here because we can see a linear trend in the dataset for housing prices and housing prices are normally distributed. 
