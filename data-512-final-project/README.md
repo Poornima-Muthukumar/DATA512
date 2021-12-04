@@ -53,6 +53,25 @@ I will fit a univariate linear regression model using historical data from (2010
 
 # Summary Plots and Visualatization
 
+### Correlation
+![plot1] (https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/results/weekly_cases_vs_house_inventory_mecklenburg_county.jpeg)
+
+![plot2] (https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/results/weekly_cases_vs_houses_sold_mecklenburg_county.jpeg)
+
+![plot3] (https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/results/weekly_cases_vs_median_sale_price_mecklenburg_county.jpeg)
+
+![plot4] (https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/results/weekly_cases_vs_new_listing_mecklenburg_county.jpeg)
+
+### Linear Regression
+
+![plot1] (https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/results/linearregression/median_sale_prie_mecklenburg_county.jpeg)
+
+![plot2] (https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/results/linearregression/linear_regression_line_median_sale_price.jpeg)
+
+![plot3] (https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/results/linearregression/test_set_actual_vs_predicted_price.jpeg)
+
+![plot4] (https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/results/linearregression/actual_vs_predicted_price_validation_set.jpeg)
+
 # Reflection
 
 # Issues
