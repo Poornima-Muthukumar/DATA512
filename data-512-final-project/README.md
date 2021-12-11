@@ -23,17 +23,17 @@ To perform the analysis I will use the following different datasets.
 
 The Redfin weekly housing market data has data for each county on a weekly basis. The data is broken down by property type (All Residential, Single Family, Condo, Multi-Family, Townhouse, etc). Redfin has published [this page](https://www.redfin.com/news/data-center-metrics-definitions/) to define each column in the dataset and how to interpret the column. This data set is licensed under [Redfin’s Terms of Use](https://www.redfin.com/about/terms-of-use). The guidelines for using the data states to cite the data source appropriately and provide a link to Redfin.
 
-| Column                      | Values                                 |
-|-----------------------------|----------------------------------------|
-| period_begin                | Start date                             |
-| period_end                  | End date                               |
-| inventory                   | Housing Inventory                      |
-| total_homes_sold            | Total Homes Sold                       |
-| median_sale_price           | Median Sale Price                      |
-| median_new_listing_price    | Median New Listing Price               |
-| total_new_listings          | Total New Listing                      |
+   | Column                      | Values                                 |
+   |-----------------------------|----------------------------------------|
+   | period_begin                | Start date                             |
+   | period_end                  | End date                               |
+   | inventory                   | Housing Inventory                      |
+   | total_homes_sold            | Total Homes Sold                       |
+   | median_sale_price           | Median Sale Price                      |
+   | median_new_listing_price    | Median New Listing Price               |
+   | total_new_listings          | Total New Listing                      |
 
-3. THe monthly housing market data from Redfin - https://redfin-public-data.s3.us-west-2.amazonaws.com/redfin_market_tracker/county_market_tracker.tsv000.gz
+3. The monthly housing market data from Redfin - https://redfin-public-data.s3.us-west-2.amazonaws.com/redfin_market_tracker/county_market_tracker.tsv000.gz
 
 # Methodology
 
