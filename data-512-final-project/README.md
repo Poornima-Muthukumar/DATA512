@@ -81,7 +81,7 @@ I will fit a univariate linear regression model using historical data from (2013
 # Future Work
 
 # License
-My research would be released under an MIT License and the data is all public domain.
+  My research would be released under an MIT License and the data is all public domain.
 
 # Folder Structure
 ```
@@ -120,7 +120,6 @@ My research would be released under an MIT License and the data is all public do
 └── LICENSE
 
 ```
-
 # Libraries Used:
 1. pandas
 2. numpy
