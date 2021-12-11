@@ -34,6 +34,7 @@ The Redfin weekly housing market data has data for each county on a weekly basis
    | total_new_listings          | Total New Listing                      |
 
 3. The monthly housing market data from Redfin - https://redfin-public-data.s3.us-west-2.amazonaws.com/redfin_market_tracker/county_market_tracker.tsv000.gz
+4. 30 year fixed Interest Rate - https://fred.stlouisfed.org/series/MORTGAGE30US
 
 # Methodology
 
