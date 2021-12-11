@@ -88,6 +88,10 @@ However the pandemic also fueled a shortage in supply of homes - both newly buil
 To conclude, this study informs the reader of their understanding of human centered data science as it is important to pay attention to this trend and for the government to take action. It is important to fix this gap between supply and demand by building more homes where people need it, otherwise this inequality will continue to skyrocket and a growing number of Americans will be shut out of the housing market altogether.
 
 # Limitations
+1. All my analysis and conclusions are based on Single Family Homes (SFH). This could mean that there could be other patterns and trends for different property types and my results do not extend to other residential properties such as condos, townhomes, etc
+2. In my interest rate analysis, I focus on the 30 year fixed interest rate. This could mean that other interest rates could have influenced the housing market differently which is not explored in my analysis. 
+3. The analysis uses a 7 day rolling average number of covid cases to see correlation between the number of covid cases and housing market and does not include deaths. 
+4. The Redfin weekly and monthly data is not seasonally adjusted. Doing so could yield slightly different results. 
 
 # Future Work
 
