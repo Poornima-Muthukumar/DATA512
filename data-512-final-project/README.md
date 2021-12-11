@@ -10,9 +10,9 @@ By performing this analysis I hope to learn if there was any correlation between
 # Research Question and Analysis
 As the pandemic progressed, the cases started increasing nationwide. The state and national government issued several lockdowns to control the spread of the virus, a lot of the businesses were shut and there was widespread fear of another recession. Tracking changes in the housing market will provide us insights into the economy of North Carolina state, help us contextualize growth and decline in this county, and give us insight into the market. As part of this project, I plan to explore the following questions to help understand the trend in the housing market since the start of the pandemic.
 
-During the COVID-19 pandemic did the housing prices go up or down from January 2020 through August 2021?
-Did the number of COVID-19 cases and deaths have an impact on the housing prices from January 2020 through August 2021?
-Where there any other trends in the data related to covid cases and the housing market?
+1. During the COVID-19 pandemic did the housing prices go up or down from January 2020 through August 2021?
+2. Did the number of COVID-19 cases and deaths have an impact on the housing prices from January 2020 through August 2021?
+3. Where there any other trends in the data related to covid cases and the housing market?
 
 # Data Sources
 To perform the analysis I will use the following different datasets.
@@ -33,6 +33,8 @@ The Redfin weekly housing market data has data for each county on a weekly basis
 | median_new_listing_price    | Median New Listing Price               |
 | total_new_listings          | Total New Listing                      |
 
+3. THe monthly housing market data from Redfin - https://redfin-public-data.s3.us-west-2.amazonaws.com/redfin_market_tracker/county_market_tracker.tsv000.gz
+
 # Methodology
 
 ### Correlation between covid cases and housing prices 
@@ -41,7 +43,7 @@ Here I will perform exploratory data analysis by creating visualizations to see 
 Here I will plot the following visualization from the redfin data set. 
 Weekly confirmed covid cases and the number of new listings.
 Weekly confirmed covid cases and the total number of homes sold.
-Weekly confirmed covid cases and median list price.
+Weekly confirmed covid cases and inventory.
 Weekly confirmed covid cases and median sale price.
 
  ### Linear Regression
@@ -49,7 +51,7 @@ I will also perform linear regression to predict housing prices for 2020 and 202
 
 Linear regression suits best to find the relationship between a dependent continuous variable (Median Sale Price) and one or more explanatory independent variables (Month/Year). Linear regression suits best here because we can see a linear trend in the dataset for housing prices and housing prices are normally distributed. 
 
-I will fit a univariate linear regression model using historical data from (2010- 2019)  where the feature is the weekly dates and the target is the median housing price. We are all aware of the housing market crash in 2007-2008 and it took the market some time to stabilize after the crash, hence I have decided to train the model with data post-2010.  I will split the data into (80-20 train test split) and fit a linear regression model using python scikit learn. I will also compute the RMSE (root mean square error) as a measure of model performance and use the model to predict housing prices for 2020 and 2021 and compare if the prediction is higher or similar to actual prices. 
+I will fit a univariate linear regression model using historical data from (2013- 2019)  where the feature is the monthly dates and the target is the median housing price. We are all aware of the housing market crash in 2007-2008 and it took the market some time to stabilize after the crash, hence I have decided to train the model with data post-2010.  I will split the data into (80-20 train test split) and fit a linear regression model using python scikit learn. I will also compute the RMSE (root mean square error) as a measure of model performance and use the model to predict housing prices for 2020 and 2021 and compare if the prediction is higher or similar to actual prices. 
 
 # Summary Plots and Visualatization
 
@@ -82,27 +84,42 @@ I will fit a univariate linear regression model using historical data from (2010
 My research would be released under an MIT License and the data is all public domain.
 
 # Folder Structure
- data-raw
-  1. CONVENIENT_us_confirmed_cases.csv
-  2. CONVENIENT_us_deaths.csv
- data-processed
-  1. covid-data-mecklenburg-cleaned.csv
-  2. housing-data-mecklenburg-cleaned.csv
-  3. housing-covid-merged.csv
- Images
-  LinearRegression
-    1. median_sale_prie_mecklenburg_county.jpeg
-    2. linear_regression_line_median_sale_price.jpeg
-    3. test_set_actual_vs_predicted_price.jpeg
-    4. actual_vs_predicted_price_validation_set.jpeg
-  1.weekly_cases_vs_house_inventory_mecklenburg_county.jpeg
-  2.weekly_cases_vs_houses_sold_mecklenburg_county.jpeg
-  3.weekly_cases_vs_median_sale_price_mecklenburg_county.jpeg
-  4.weekly_cases_vs_new_listing_mecklenburg_county.jpeg
-  
- src
-  1.Final-Project.ipynb
- 
+```
+.
+├── README.md
+├── data_processed
+│   └──covid-data-mecklenburg-cleaned.csv
+|   └──housing-data-mecklenburg-cleaned.csv
+|   └──housing-covid-merged.csv
+├── data_raw
+│   └──CONVENIENT_us_confirmed_cases.csv
+|   └──CONVENIENT_us_deaths.csv
+|   └──MORTGAGE30US.csv
+|   └──RAW_us_confirmed_cases.csv 
+│   └──mask-use-by-county.csv
+├── results
+│   └── ProjectPresentation.pptx
+|   └── Common-Analysis-Reflection.doc
+|   └── Final-Project-Report.doc
+├── src
+│   └── poornima-muthukumar-a4.ipynb
+|   └── poornima-muthukumar-final-project.ipynb
+├── images
+|   ├──commonanalysis
+|   |    └──     
+|   ├──linearregression
+|   |    └── median_sale_prie_mecklenburg_county.jpeg
+|   |    └── linear_regression_line_median_sale_price.jpeg
+|   |    └── test_set_actual_vs_predicted_price.jpeg
+|   |    └── actual_vs_predicted_price_validation_set.jpeg
+|   └──correlation
+|   |    └── weekly_cases_vs_house_inventory_mecklenburg_county.jpeg
+|   |    └── weekly_cases_vs_houses_sold_mecklenburg_county.jpeg
+|   |    └── weekly_cases_vs_median_sale_price_mecklenburg_county.jpeg
+|   |    └── weekly_cases_vs_new_listing_mecklenburg_county.jpeg
+└── LICENSE
+
+```
 
 # Libraries Used:
 1. pandas
