@@ -152,6 +152,12 @@ To conclude, this study informs the reader of their understanding of human cente
 6. sklearn
 
 # References
+  1. Federal Reserve Bank of St. Louis. (2021, December 9). The impact of covid-19 on the residential real estate market: St. Louis Fed. Saint Louis Fed Eagle. Retrieved December 11, 2021, from https://www.stlouisfed.org/publications/regional-economist/fourth-quarter-2020/impact-covid-residential-real-estate-market. 
+   2. Demsas, J. (2021, February 5). Covid-19 caused a recession. so why did the housing market boom? Vox. Retrieved December 11, 2021, from https://www.vox.com/22264268/covid-19-housing-insecurity-housing-prices-mortgage-rates-pandemic-zoning-supply-demand. 
+  3. Sai Balasubramanian, M. D. (2021, December 10). The COVID-19 pandemic has fueled a crisis in the housing market. Forbes. Retrieved December 11, 2021, from https://www.forbes.com/sites/saibala/2021/04/27/the-covid-19-pandemic-has-fueled-a-crisis-in-the-housing-market/?sh=49f3de175928. 
+4. Valkov, V. (2019, July 5). Predicting house prices with linear regression: Machine learning from scratch (part II). Medium. Retrieved December 11, 2021, from https://towardsdatascience.com/predicting-house-prices-with-linear-regression-machine-learning-from-scratch-part-ii-47a0238aeac1. 
+5. Faressayah. (2021, August 5). Linear regression 📈 house 🏡 price 💵 prediction. Kaggle. Retrieved December 11, 2021, from https://www.kaggle.com/faressayah/linear-regression-house-price-prediction. 
+6. The impact of coronavirus on the U.S Housing Market - Redfin. (n.d.). Retrieved December 11, 2021, from https://www.redfin.com/guides/coronavirus-housing-market-impact. 
 
 # Human Centered Data Science Perspective
 In my analysis, I have made an effort to address a variety of human-cenetered data science considerations including:
