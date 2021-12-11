@@ -59,27 +59,34 @@ I will fit a univariate linear regression model using historical data from (2013
 ### Findings
  **Housing Inventory**: During the pandemic in 2020 and 2021, we can see a sharp decline in housing inventory (blue line) since January 2021(peak of covid) as seen on the red line. A decline in inventory was caused by multitude of reasons such as decline in new constructions due to supply chain disruptions, people not wanting to sell homes due to economic uncertainty, people not wanting to sell homes to avoid home visits by strangers to avoid contracting the virus, and also because of strict stay at home orders and lockdowns in place by the government. 
  
-![plot1](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/weekly_cases_vs_house_inventory_mecklenburg_county.jpeg)
+![plot1](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/correlation/weekly_cases_vs_house_inventory_mecklenburg_county.jpeg)
 
 **Median Sale Price**:  We can see an upward trend in median housing prices overall in NC. The housing price dipped briefly around January 2021 when the cases peaked, but it steadily increased after that. We can see a 100K increase in median sale price in a span of roughly two years from 260k to 360k. The increase in Median Sale Price can be correlated to the decline in inventory as can be seen from the above graph. 
 
-![plot3](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/weekly_cases_vs_median_sale_price_mecklenburg_county.jpeg)
+![plot3](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/correlation/weekly_cases_vs_median_sale_price_mecklenburg_county.jpeg)
 
 **Total Number of Homes Sold and Total Number of New Listings:**  The graph on the left shows the fluctuations in the total number of homes sold.  We can see at the start of the pandemic the number of homes sold were lower as there was an overall uncertainty due to the pandemic. Around June 2020 we can see the number of homes sold start to increase and then it dips when the number of covid cases reaches its peak around January 2021. Similarly, we can see a sharp drop in the number of new listings around January 2021 when the cases peak. From these two graphs, we can conclude that everytime the COVID cases increase the number of homes sold and number of new listings in the market decrease. This could be caused by a number of factors like lockdown, fear among people of getting covid by doing home tours, sellers thinking they might not be able to sell at a high price if there are not enough buyers, real-estate agents not wanting to do in-person home tours etc. 
 
-![plot2](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/weekly_cases_vs_houses_sold_mecklenburg_county.jpeg)
+![plot2](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/correlation/weekly_cases_vs_houses_sold_mecklenburg_county.jpeg)
 
-![plot4](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/weekly_cases_vs_new_listing_mecklenburg_county.jpeg)
+![plot4](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/correlation/weekly_cases_vs_new_listing_mecklenburg_county.jpeg)
 
 ### Linear Regression
 
-![plot1](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/linearregression/median_sale_prie_mecklenburg_county.jpeg)
-
-![plot2](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/linearregression/linear_regression_line_median_sale_price.jpeg)
-
-![plot3](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/linearregression/test_set_actual_vs_predicted_price.jpeg)
+From the output of the linear regression model, we can see that there is roughly 100K difference between the actual housing and predicted housing price for 2020 and 2021. The model was trained with historic housing price data from (2013 to 2019) and based on that was asked to predict the housing price for 2020 and 2021. The model output shows that the housing price during the pandemic increased significantly more compared to previous years and that houses sold for a higher price than they should have been.
 
 ![plot4](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/linearregression/actual_vs_predicted_price_validation_set.jpeg)
+
+   | Year                        | % Change                               |
+   |-----------------------------|----------------------------------------|
+   | 2014                        | 0.026586                               |
+   | 2015                        | 0.051282                               |
+   | 2016                        | 0.131707                               |
+   | 2017                        | 0.012931                               |
+   | 2018                        | 0.089362                               |
+   | 2019                        | 0.050781                               |
+   | 2020                        | 0.222770                               |
+   | 2021                        | 0.194801                               |
 
 # Conclusion:
 Through my analysis, I can conclude that the COVID-19 pandemic had an impact on the housing market in Mecklenburg County. We can see that COVID-19 pandemic has impacted both supply and demand in the housing market.  People wanted to take advantage of lower mortgage rates which caused the demand for housing to go up.
