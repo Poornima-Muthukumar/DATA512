@@ -54,7 +54,7 @@ Linear regression suits best to find the relationship between a dependent contin
 
 I will fit a univariate linear regression model using historical data from (2013- 2019)  where the feature is the monthly dates and the target is the median housing price. We are all aware of the housing market crash in 2007-2008 and it took the market some time to stabilize after the crash, hence I have decided to train the model with data post-2010.  I will split the data into (80-20 train test split) and fit a linear regression model using python scikit learn. I will also compute the RMSE (root mean square error) as a measure of model performance and use the model to predict housing prices for 2020 and 2021 and compare if the prediction is higher or similar to actual prices. 
 
-# Summary Plots and Visualatization
+# Summary Plots and Visualization
 
 ### Findings
  **Housing Inventory**: During the pandemic in 2020 and 2021, we can see a sharp decline in housing inventory (blue line) since January 2021(peak of covid) as seen on the red line. A decline in inventory was caused by multitude of reasons such as decline in new constructions due to supply chain disruptions, people not wanting to sell homes due to economic uncertainty, people not wanting to sell homes to avoid home visits by strangers to avoid contracting the virus, and also because of strict stay at home orders and lockdowns in place by the government. 
