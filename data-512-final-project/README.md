@@ -75,6 +75,8 @@ I will fit a univariate linear regression model using historical data from (2013
 
 From the output of the linear regression model, we can see that there is roughly 100K difference between the actual housing and predicted housing price for 2020 and 2021. The model was trained with historic housing price data from (2013 to 2019) and based on that was asked to predict the housing price for 2020 and 2021. The model output shows that the housing price during the pandemic increased significantly more compared to previous years and that houses sold for a higher price than they should have been.
 
+![plot4](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/linearregression/linear_regression_line_median_sale_price.jpeg)
+
 ![plot4](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/linearregression/actual_vs_predicted_price_validation_set.jpeg)
 
    | Year                        | % Change                               |
