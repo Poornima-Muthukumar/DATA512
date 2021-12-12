@@ -91,7 +91,7 @@ From the output of the linear regression model, we can see that there is roughly
    | 2020                        | 0.222770                               |
    | 2021                        | 0.194801                               |
 
-# Conclusion:
+# Conclusion
 Through my analysis, I can conclude that the COVID-19 pandemic had an impact on the housing market in Mecklenburg County. We can see that COVID-19 pandemic has impacted both supply and demand in the housing market.  People wanted to take advantage of lower mortgage rates which caused the demand for housing to go up.
 
 However the pandemic also fueled a shortage in supply of homes - both newly built and those sold by existing owners.  We can see a decline in housing inventory, number of new listings on the market as covid cases increased.  Thus we can conclude that an increased demand and a shortage in supply fueled the median sale price of the homes to go up throughout the pandemic. 
