@@ -12,7 +12,8 @@ As the pandemic progressed, the cases started increasing nationwide. The state a
 
 1. During the COVID-19 pandemic did the housing prices go up or down from January 2020 through August 2021?
 2. Did the number of COVID-19 cases and deaths have an impact on the housing prices from January 2020 through August 2021?
-3. Where there any other trends in the data related to covid cases and the housing market?
+3. Did changes in 30-year fixed Interest Rates cause any fluctuations in Median Sale price and number of homes sold in the market?
+4. Where there any other trends in the data related to covid cases and the housing market?
 
 # Data Sources
 To perform the analysis I will use the following different datasets.
