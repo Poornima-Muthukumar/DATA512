@@ -102,6 +102,13 @@ To conclude, this study informs the reader of their understanding of human cente
 4. The Redfin weekly and monthly data is not seasonally adjusted. Doing so could yield slightly different results. 
 
 # Future Work
+Future Work
+1. It will be interesting to build on top of my analysis to see patterns in the housing market related to other factors such as work from home, commuting patterns, supply chain disruptions, wood prices, lockdown restrictions that have also had some impact on the housing market indirectly.
+2. Another interesting future work is to see how the housing market performed in different states and counties and if there was any commonality that can be extended from such an analysis to generalize the results with similar size states and counties.
+3. Another potential analysis involves how rental prices fluctuated throughout the pandemic and if there was any correlation between rental price and housing prices.
+4. Another analysis that can be built on top of this includes looking at the median household income of the people purchasing the homes to further analyse how the government can create schemes to help racial and generational inequality. 
+5. Going forward it would also be useful to put this visualization in a dashboard that gets refreshed with data on a day-to-day basis so we can see how the housing market evolved as COVID and its variants and cases change on a timely basis. 
+
 
 # License
   My research would be released under an MIT License and the data is all public domain.
