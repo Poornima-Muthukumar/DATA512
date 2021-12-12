@@ -136,7 +136,10 @@ Future Work
 |   └── poornima-muthukumar-final-project.ipynb
 ├── images
 |   ├──commonanalysis
-|   |    └──     
+|   |    └── 7Day_Average_Deaths_Mecklenburg_North_Carolina.jpeg 
+|   |    └── Cumulative_Cases_Deaths_Mecklenburg_North_Carolina.jpeg
+|   |    └── Mecklenburg-County-NC-Cumulative-Cases.jpeg 
+|   |    └── Mecklenburg-County-NC-Rate-Of-Infection.jpg
 |   ├──linearregression
 |   |    └── median_sale_prie_mecklenburg_county.jpeg
 |   |    └── linear_regression_line_median_sale_price.jpeg
