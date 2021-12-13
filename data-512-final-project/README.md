@@ -53,7 +53,20 @@ I will also perform linear regression to predict housing prices for 2020 and 202
 
 Linear regression suits best to find the relationship between a dependent continuous variable (Median Sale Price) and one or more explanatory independent variables (Month/Year). Linear regression suits best here because we can see a linear trend in the dataset for housing prices and housing prices are normally distributed. 
 
+![plot4](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/linearregression/median_sale_prie_mecklenburg_county.jpeg)
+
 I will fit a univariate linear regression model using historical data from (2013- 2019)  where the feature is the monthly dates and the target is the median housing price. We are all aware of the housing market crash in 2007-2008 and it took the market some time to stabilize after the crash, hence I have decided to train the model with data post-2010.  I will split the data into (80-20 train test split) and fit a linear regression model using python scikit learn. I will also compute the RMSE (root mean square error) as a measure of model performance and use the model to predict housing prices for 2020 and 2021 and compare if the prediction is higher or similar to actual prices. 
+
+![plot4](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/linearregression/linear_regression_line_median_sale_price.jpeg)
+
+The model's performance on the test set is evaluated using the common evaluation metrics for regression problems
+MAE, MSE and RMSE on Test Data for Mecklenburg
+
+**Mean Absolute Error**: 9957.248703801895
+**Mean Squared Error**: 163812031.95049974
+**Root Mean Squared Error**: 12798.90745143896
+
+![plot4](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/linearregression/ltest_set_actual_vs_predicted_price.jpeg)
 
 # Summary Plots and Visualization
 
@@ -75,8 +88,6 @@ I will fit a univariate linear regression model using historical data from (2013
 ### Linear Regression
 
 From the output of the linear regression model, we can see that there is roughly 100K difference between the actual housing and predicted housing price for 2020 and 2021. The model was trained with historic housing price data from (2013 to 2019) and based on that was asked to predict the housing price for 2020 and 2021. The model output shows that the housing price during the pandemic increased significantly more compared to previous years and that houses sold for a higher price than they should have been.
-
-![plot4](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/linearregression/linear_regression_line_median_sale_price.jpeg)
 
 ![plot4](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/linearregression/actual_vs_predicted_price_validation_set.jpeg)
 
