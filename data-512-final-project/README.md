@@ -66,7 +66,7 @@ MAE, MSE and RMSE on Test Data for Mecklenburg
 **Mean Squared Error**: 163812031.95049974
 **Root Mean Squared Error**: 12798.90745143896
 
-![plot4](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/linearregression/ltest_set_actual_vs_predicted_price.jpeg)
+![plot4](https://github.com/Poornima-Muthukumar/DATA512/blob/master/data-512-final-project/images/linearregression/test_set_actual_vs_predicted_price.jpeg)
 
 # Summary Plots and Visualization
 
